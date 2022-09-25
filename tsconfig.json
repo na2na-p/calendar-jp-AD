@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		"incremental": false,
+		"target": "ESNext",
+		"module": "NodeNext",
+		"allowJs": false,
+		"rootDir": "src",
+		"typeRoots": ["src/@types", "node_modules/@types"],
+		"baseUrl": ".",
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true,
+		"removeComments": true,
+		"noEmitOnError": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noUncheckedIndexedAccess": false,
+		"noImplicitOverride": true,
+		"noImplicitAny": true,
+		"exactOptionalPropertyTypes": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noFallthroughCasesInSwitch": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitThis": true,
+		"skipLibCheck": true,
+		"noImplicitReturns": true,
+		"resolveJsonModule": true,
+		"noLib": false,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"paths": {
+			"@/*": ["src/*"],
+			"@modules/*": ["src/modules/*"]
+		}
+	},
+	"include": ["src/**/*.ts"]
+}
