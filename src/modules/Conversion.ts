@@ -30,6 +30,7 @@ export class Conversion {
 			return new Intl.DateTimeFormat('ja-JP-u-ca-japanese', {era: 'long', year: 'numeric', month: 'short', day: 'numeric'}).format(new Date(data));
 			// return data;
 		case 'ad':
+			// TODO
 			return data;
 		default:
 			const _: never = to;
