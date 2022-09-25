@@ -36,7 +36,7 @@ module.exports = {
 			'error',
 		],
 		'@typescript-eslint/no-unused-vars': ['off', { 'argsIgnorePattern': '^_' }],
-		// no-case-declarationsで_のみの変数名を許可
-		'no-case-declarations': ['error', { 'allowUnboundThis': true }],
+		// no-case-declarationsで_のみの変数名を許可したい
+		'no-case-declarations': ['off'],
 	}
 };

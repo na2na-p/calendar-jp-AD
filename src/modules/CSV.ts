@@ -1,5 +1,5 @@
 import fs from 'fs';
-import iconv from "iconv-lite";
+import iconv from 'iconv-lite';
 
 export class CSV {
 	#data: string[][];
@@ -27,7 +27,7 @@ export class CSV {
 		return this.#data;
 	}
 
-	public static createCSV(data: string[][], fileName: string, encoding: string = "Shift_JIS"): void {
+	public static createCSV(data: string[][], fileName: string, encoding = 'Shift_JIS'): void {
 		// ${filename}-output.csv
 		// filenameの末尾には.csvがあるので除去
 		const outputFileName = fileName.slice(0, -4) + '-output.csv';
